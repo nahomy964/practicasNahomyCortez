@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>Formulario para reservar viaje</h1>
+    <form>
+        <fieldset>
+            <legend>Datos personales:</legend>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <br>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="example@email.com">
+        <br>
+        <br>
+        <label for="número de teléfono">Número de teléfono:</label>
+        <input type="telefono" id="número de teléfono" name="número de teléfono">
+        <br>
+        <br>
+        <label for="Número de acom">Número de acompañantes:</label>
+        <input type="number" id="número de acom" name="Número de acom" step="1" min="1" max="5">
+        <br>
+        <br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Datos de viaje</legend>
+        <label for="Lugar de origen">Lugar de origen:</label>
+        <input type="text" id="Lugar de origen" name="Lugar de origen" readonly="San Salavdor">
+        <br>
+        <br>
+        <label for="destino">Lugar de destino:</label>
+        <select name="destino" id="destino">
+        <option value="Luterbrunnen">Luterbrunnen</option>
+        <option value="Florencia">Florencia</option>
+        <option value="Bacelona">Bacelona</option>
+         <option value="Venecia">Venecia</option>
+        </select>
+        <br>
+        <br>
+        <label for="fecha salida">Fecha de salida:</label>
+        <input type="date" id="fecha de salida" name="fecha salida">
+        <br>
+        <br>
+        <label for="fecha regreso">Fecha de regreso:</label>
+        <input type="date" id="fecha de regreso" name="fecha de regreso">
+        </fieldset>
+        <br>
+        <br>
+    <input type="submit" value="Reservar">
+    <input type="reset" value="Anular">
+
+    </form>
+</body>
+</html>
