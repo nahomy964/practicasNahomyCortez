@@ -8,3 +8,20 @@ h1{
     font-size: 7rem;
 }
 
+h2{
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: italic;
+}
+p{
+    font-family: "Open sans" , serif;
+     font-weight: 200;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+
+}
+
+
