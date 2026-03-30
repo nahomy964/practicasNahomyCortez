@@ -1,7 +1,11 @@
 /* IMPORTACIÓN DE FUENTES (Google Fonts)*/
 @import 
+<<<<<<< HEAD
 url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 ;
+=======
+url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+>>>>>>> 6dc9b29e50211c2502d4783bdac1ad851c37a8a4
 /* RESET BÁSICO (Primeros estilos) */
 * {
 margin: 0;
