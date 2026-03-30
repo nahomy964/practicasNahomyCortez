@@ -1,6 +1,6 @@
 /* IMPORTACIÓN DE FUENTES (Google Fonts)*/
 @import 
-url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Special+Elite&display=swap')
+url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 ;
 /* RESET BÁSICO (Primeros estilos) */
 * {
@@ -10,10 +10,11 @@ box-sizing: border-box;
 }
 /* ESTILOS GENERALES (Selector de etiqueta)*/
 body {
-font-family: 'Inter', sans-serif;
-background-image: url(../img/street.jpg);
-background-size: contain;
-color:  rgb(151, 0, 0);
+font-family:'Rajdhani', sans-serif;
+background-image: url(https://s3.pixers.pics/pixers/700/FO/52/13/38/30/700_FO52133830_73177404cdae5b3cc6bf0f5e43ef712c.jpg);
+background-size: cover;
+background-position: center;
+color:  black;
 line-height: 1.6;
 }
 
@@ -21,7 +22,7 @@ line-height: 1.6;
 HEADER Y NAVEGACIÓN
 ========================= */
 header {
-background-color:  rgb(151, 0, 0);
+background-color: linear-gradient(#7a0000, #000)
 color: #fff;
 padding: 10px;
 position: sticky; /* Posicionamiento sticky */
@@ -31,15 +32,18 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: space-evenly; 
+border bottom: 2px solid gold;
 }
 
 .titulo {
-font-family: 'Special+Elite', cursive; /* Fuente tipo máquina de escribir */
-letter-spacing: 5px;
+font-family: 'Orbitron', sans-serif; /* Fuente tipo máquina de escribir */
+letter-spacing: 4px;
 text-align: center;
 margin-bottom: 10px;
-max-height:max-content;
-font-size: 1.4rem;
+font-size: 1.5rem;
+color: gold;
+text-shadow: 0 0 10px red;
+
 }
 /* Flexbox para menú */
 .menu {
@@ -58,7 +62,10 @@ border-radius: 5px;
 transition: 0.3s;
 }
 .link:hover {
-background-color:  rgb(151, 0, 0);
+background-color:  gold;
+color: black;
+box-shadow: 0 0 10px gold;
+
 }
 
 /*MAIN Y SECCIONES */
@@ -72,20 +79,23 @@ margin: 40px 0; /*Separar cada sección*/
 padding: 20px;
 background-color: #ffffffd5;
 border-radius: 10px;
-box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+box-shadow: 0 0 15px rgba(255,0,0,0.3);
 }
 /* ID selector */
 #s1, #s2, #s3, #s4, #s5 {
+color: white;
 margin-bottom: 15px;
-color: #584343;
+color: gold;
 text-align: center;
+font-family: 'Orbitron', sans-serif;
+text-shadow: 0 0 8px red;
 }
 
 .imgpeq {
-border: solid white 8px;
+border: solid gold 5px;
 margin: 35px 0;
 float: right; /*que el texto envuelva la imagen*/
-box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+box-shadow: 0 0 15px red;
 }
 /* =========================
 LISTAS
@@ -105,12 +115,12 @@ width: 100%;
 border-collapse: collapse;
 }
 .ficha th, .ficha td {
-border: 1px solid #747474;
+border: 1px solid gold;
 padding: 10px;
 }
 .ficha th {
-background-color:  rgb(151, 0, 0);
-color: white;
+background-color:  #7a0000;
+color: gold;
 }
 
 /* =========================
@@ -129,17 +139,20 @@ input {
 padding: 8px;
 width: 100%;
 max-width: 400px;
-border: 1px solid #ccc;
+border: 1px solid gold;
 border-radius: 5px;
+background-color: #111;
+color: white;
 }
 
 /* Botón */
 input[type="submit"] {
-background-color:  rgb(151, 0, 0);
+background-color:  linear-gradient(45deg, red, gold);
 color: white;
 border: none;
 cursor: pointer;
 margin-top: 10px;
+font-weight: bold;
 }
 input[type="submit"]:hover {
 background-color:  rgb(151, 0, 0);
@@ -167,9 +180,11 @@ height: 300px;
 object-fit: cover; /* overflow control */
 border-radius: 10px;
 transition: transform 0.3s;
+border: 2px solidgold;
 }
 .galeria img:hover {
 transform: scale(1.1);
+box-shadow: 0 0 20px red;
 }
 
 /* =========================
@@ -178,8 +193,8 @@ FOOTER
 footer {
 text-align: center;
 padding: 20px;
-background-color: #000;
-color: white;
+background-color: linear-gradiente(90deg, black, #7a0000);
+color: gold;
 margin-top: 40px;
 }
 
