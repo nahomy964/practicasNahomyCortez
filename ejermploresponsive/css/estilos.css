@@ -1,0 +1,41 @@
+.contenedor{
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'menu'
+    'main';
+    gap: 10px;
+}
+.header{
+    grid-area: header;
+    background-color: purple;
+    text-align: center;
+    color: white;
+}
+
+.menu{
+    grid-area: menu;
+
+}
+
+.menu li{
+    background-color: rgb(100, 183, 234);
+    margin-bottom: 7px;
+    padding: 8px;
+    color: white;
+}
+
+.contenido{
+    grid-area: main;
+
+}
+
+@media(min-with:600px){
+    .header{grid-area: 1/ span 6;}
+    .menu{grid-area: 2/ span 1;}
+    .contenido{grid-area: 2/span 6;}
+}
+@media(min-with:786px)
+    .header{grid-area: 1/ span 6;}
+    .menu{grid-area: 2/ span 1;}
+    .contenido{grid-area: 2/span 6;}
